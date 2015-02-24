@@ -1,5 +1,5 @@
 # SSPMultiStageTwoDerivativeMethods
-This is a collection of codes which we used to find Optimal SSP multiderivative multistage time stepping methods. 
+This is a collection of codes which we used to find Optimal SSP multiderivative multistage time stepping methods. These matlab codes are based off of David Ketchesons routines which search for SSP Multi-Step Runge Kutta methods, which are apart of his RK-opt package. The definitions and SSP conditions will be explained in a paper we are currently in the progess of writing. 
 
 **opt_mdrk:**         Optimization Driver file, uses Fmincon to find MDRK methods with largest SSP coeficient
 
