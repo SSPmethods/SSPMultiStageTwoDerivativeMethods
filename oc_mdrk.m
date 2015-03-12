@@ -1,8 +1,7 @@
- function coneq= oc_mdrk(p,x,s);
+function coneq = oc_mdrk(p,x,s);
 %Order Conditions Found in Tsai Chan paper for TDRK Methods,  not taking
 %advantage of stage order simplifications. Currently Methods are only defined up to Fifth Order. 
 %We are using the order conditions for our equality constraints in this optimization procedure.
- 
  
 %%%%Representing methods in Butcher Form
 [A,Ahat,b,bhat] =  unpackMSMDRK(x,s); 

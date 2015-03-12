@@ -3,8 +3,6 @@ function [rvect,Krange] = revealR(A,Ahat,b,bhat,Kmin, Kmax);
 %Where K=(dtVV/dtFE).  We use this function to help build our SSP curve of
 %a given method.
 
-
-
 if nargin<6;
     Kmax=Kmin;
 end

@@ -1,5 +1,4 @@
 function [con,coneq]=nlc_mdrk(x,s,p,K)
-
 % The Nonlinear Constraints for our optimization routine are a combination
 % of the equality constraints, coneq, which come from the order conditions,
 % and Inequality Constraints, con, which are from our SSP conditions. 
